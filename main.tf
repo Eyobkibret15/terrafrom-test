@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "eyobs-bucket-weee-tf" # Replace with a unique bucket name
+  bucket = "eyobs-bucket-weee-3d-tf" # Replace with a unique bucket name
   acl    = "private"
   tags = var.bucket_tags
 }
